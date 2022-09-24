@@ -9,8 +9,8 @@ body {
 	background-color: #282c34;
 	color: #abb2bf;
 	counter-reset: mycount 0 mycount2 1;
-	width:100vmax;
-	height:100vmax
+	
+	
 	/*init a counter*/
 }
 
