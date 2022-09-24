@@ -1,0 +1,34 @@
+@keyframes my-anition {
+	/*this is my-anition, a name*/
+	30% {
+		background-color: aqua;
+	}
+	/*animation from 0% to 100%, It can also have other keyframes, but between from and to*/
+	/*like below*/
+	50.5% {
+		background-color: antiquewhite;
+	}
+	70% {
+		background-color: red;
+	}
+	90% {
+		background-color: #1d2126;
+	}
+	/*Each frame of animation can have different styles, all defined in that frame*/
+}
+
+body{
+    animation-name: my-anition; /*bind my-anition for body*/
+	animation-duration: 0s; /*my-anition play 1s every once*/
+	animation-iteration-count: 1; /*my-anition play count*/
+	animation-timing-function: cubic-bezier(
+		0.1,
+		0.1,
+		0.1,
+		1
+	); /*my-anition play Graph of playback speed, if Each node has the same value, meaning every playback is smooth line, it can have 4 node, from 0 ti 1*/
+	animation-fill-mode: backwards; /*when my-anition not play, it will keep the style of the first frame*/
+	animation-delay: 0s; /* pause a time before start play*/
+	animation-direction: reverse; /*my-anition Playback order is reversed*/
+	animation-play-state: running; /*animation will play*/
+}

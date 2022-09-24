@@ -1,0 +1,58 @@
+.termail{
+    position: sticky;
+    left: 0;
+    width: 100vmax;
+    background-color: #23282e;
+}
+
+.termail_but{
+    height: auto;
+    background-color: inherit;
+    color: inherit;
+    display: inline-block;
+}
+
+.termail_but:active{
+    color: aliceblue;
+   
+     border-bottom-width: 1px;
+     border-bottom-color: #abb2bf;
+     border-bottom-style: groove;
+}
+
+.termail_but:hover{
+    color: aliceblue;
+     border-bottom-width: 1px;
+     border-bottom-color: #abb2bf;
+     border-bottom-style: groove;
+}
+
+.bash_li{
+    background-image: url(../pic/termail.jpg);
+}
+
+.bash{
+    background-position: -160px -580px;
+    height: 100px;
+    width: 100px;
+}
+
+.add{
+
+}
+
+.spilt{
+
+}
+
+.bash_del{
+
+}
+
+.up{
+
+}
+
+.close{
+
+}

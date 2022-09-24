@@ -1,0 +1,38 @@
+.edit_list{
+	position: sticky;
+	top: 0;
+	left: 0;
+	width:100vmax;
+	height:60px;
+	font-size: medium;
+	z-index: 10;
+}
+.edit_li {
+	color: #abb2bf;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px;
+    background-position: 16px 8px;
+}   
+
+.edit{
+	position: absolute;
+	top: 3.5vmax;
+	left: 279px;
+	width: 100vmax;
+	height: 93.5vmax;
+	overflow: scroll;
+	resize: both;
+}
+.bak{
+	background-color: rgba(40,44,52,0.3);
+	caret-color: #61afef;
+	top:120px;
+	left: 5%;
+	width: 1800px;
+	height: 3100px;
+}
+
+

@@ -1,0 +1,20 @@
+.down_list{
+	position: absolute;
+	height: 3vmax; 
+	width: 100vmax;
+	left:0px;
+	top:97vmax;
+	z-index: 10;
+	resize: horizontal;
+	overflow: hidden;
+}
+/*The column next to the menu must be based on the height of the menu: 3.5vmax, the others can be defined by yourself*/
+
+.end_block{
+	position: absolute;
+	left:100vmax;
+	top:97vmax;
+	width:280px;
+	height: 3vmax;	
+}
+/*mutilated block*/

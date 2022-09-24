@@ -1,0 +1,118 @@
+
+.list{
+    position: absolute;
+	left: 69px;
+    top: 3.5vmax;
+	width: auto;
+	resize: horizontal;
+	overflow: hidden;
+}
+
+ul{
+    background-color:#1d2126;
+    width:210px;
+    overflow: hidden;
+}
+
+.selcet2:active{
+    background-color: #313842;
+    border-radius: 10px 10px;
+}
+.selcet2:hover{
+    background-color: #313842;
+    border-radius: 10px 10px;
+}
+
+li{
+    padding: 5px;
+    background-position: -10000px -10000px;
+    background-repeat: no-repeat;
+}
+li:active{ 
+    filter:  brightness(1.3);
+     background-color: #23282e;
+     background-blend-mode: lighten;
+}
+li:hover{  
+    background-color: #23282e;
+    background-blend-mode:lighten;
+    filter:  brightness(1.3);
+}
+
+.icoli_css{
+    list-style-image:url(../pic/css.jpg);
+    background-image: url(../pic/css.jpg);
+    margin-left:25px;
+}
+.icoli_html{
+    list-style-image:url(../pic/html.jpg);
+    background-image: url(../pic/html.jpg);
+    margin-left:25px;
+}
+.icoli_pic{
+    list-style-image:url(../pic/pic.jpg);
+    background-image: url(../pic/pic.jpg);
+    margin-left:25px;
+}
+
+.sonlist{
+    background-color:#23282e;
+    display: inline-block;
+    width:150px;
+    height: 0px;
+    position: absolute;
+    left: 75px;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+
+.sonlist:hover{
+    height: 16px;
+}
+
+.sonli{
+    display: inline-block;
+    width: 17px;
+    height: inherit;
+    background-image: url(../pic/sonli.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 1400px; 
+}
+
+.sonli:hover{
+    border-radius: 10px 10px;
+}
+
+.file{
+    background-position: -361.5px -313.5px;
+}
+
+.dir{
+    background-position: -391px -313.5px;
+}
+
+.flash{
+    background-position: -420px -313.5px;
+}
+
+.del{
+    background-position: -450px -313.5px;
+}
+
+.xfile{
+    background-position: -361.5px -255.5px;
+}
+
+.box{
+    background-position: -391px -255.5px;
+}
+
+.shadow-box{
+    background-position: -420px -255.5px;
+}
+
+.xdel{
+    background-position: -450px -255.5px;
+}
+

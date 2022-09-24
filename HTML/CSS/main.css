@@ -1,0 +1,28 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+}
+
+body {
+	background-color: #282c34;
+	color: #abb2bf;
+	counter-reset: mycount 0 mycount2 1;
+	width:100vmax;
+	height:100vmax
+	/*init a counter*/
+}
+
+li {
+	counter-increment: mycount 1 mycount2 1;
+	/*when appear li, increment the value of the counter by 1*/
+}
+
+/*
+li::before {
+	content: counter(mycount) counter(mycount2);
+	*//*when appear li, insert counter(mycount) before li*/
+
+
+/*overflow: scroll; */

@@ -1,0 +1,57 @@
+select {
+	background-color: #f0f8ff;
+	appearance: none;
+	/*remove trim*/
+	height: 3.5vmax;
+	width: 12vw;
+	font-size: 1.8vmax;
+	/*relative to the window size*/
+	/*Regardless of the horizontal or vertical screen, the height is selected by default to the largest, so that the height remains unchanged.*/
+	/*but width must follow the width of the current window*/
+	text-align: center;
+	float: left;
+	/*self float to left, and text Align left*/
+}
+
+.selcet_ani{
+    transition-property: background-color;
+	transition-duration: 0.75s;
+	transition-timing-function: ease-out;
+	/*click transition ,Trigger the corner disappearing animation*/
+}
+
+.select:hover {
+	border-radius: 100px 100px;
+	background-color: rgba(216, 215, 213, 1);
+}
+
+.select:active {
+	/*animation-name: a_sel;
+	animation-duration: 1s;*/
+	border-radius: 100px 100px;
+	background-color: rgba(216, 215, 213, 1);
+}
+
+.menu {
+	background-color: aliceblue;
+	position: absolute;
+	/*pinned to the top of the browser*/
+	/*If the length is insufficient, extend*/
+    left: 0px;
+	top:0px;
+	width:100vmax;
+	height: 3.5vmax;
+	/*100% window*/
+	resize: horizontal;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.cl_block{
+	position: absolute;
+	left:100vmax;
+	top:0px;
+	width:280px;
+	height: 3.5vmax;
+	background-color: aliceblue;
+}

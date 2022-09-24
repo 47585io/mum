@@ -1,0 +1,23 @@
+.light_grey {
+	background-color: #282c34;
+}
+
+.xlight_grey{
+	background-color: #313842;
+}
+
+.grey {
+	background-color: #23282e;
+}
+
+.light_grey.grey {
+	background-color: #1d2126;
+}
+
+.fg {
+	background-color: #abb2bf;
+}
+
+.ffg{
+	color: #abb2bf;
+}
