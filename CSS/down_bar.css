@@ -7,6 +7,13 @@
 	z-index: 10;
 	resize: horizontal;
 	overflow: hidden;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items:stretch;
+	flex-grow:4;
+    
 }
 /*The column next to the menu must be based on the height of the menu: 3.5vmax, the others can be defined by yourself*/
 
@@ -15,6 +22,39 @@
 	left:100vmax;
 	top:97vmax;
 	width:280px;
-	height: 3vmax;	
+	height: 3vmax;
+	overflow: hidden;	
 }
 /*mutilated block*/
+
+audio{
+	height: inherit;
+	margin-left: 30px;
+	width: 50px;
+	transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+audio:active{
+	width: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+audio:hover{
+   width: 250px;
+  
+   margin-right: 10px;
+}
+
+a{
+	position: relative;
+
+	height: inherit;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a:hover{
+	color: aqua;
+}
