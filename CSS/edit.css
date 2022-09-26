@@ -1,38 +1,97 @@
+
 .edit_list{
 	position: sticky;
 	top: 0;
 	left: 0;
-	width:100vmax;
+	width:100%;
 	height:61.7px;
 	font-size: medium;
 	z-index: 10;
+	overflow: auto;
 }
 .edit_li {
 	color: #abb2bf;
 	width: 150px;
-	height: 30px;
+	height: 25px;
 	text-align: center;
 	display: inline-block;
 	margin: 0px;
     background-position: 16px 8px;
 }   
 
+.edit_block{
+	position: absolute;
+	left:80%;
+	top:0px;
+	height:61.7px;
+	width: 20%;
+}
+.edit_block_li{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	margin-left: 5px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding: 0px;
+	background-image: url(../pic/edit_block.jpg);
+}
+
+.edit_block_run{
+background-position: -12px -5px;
+}
+.edit_block_time{
+background-position: -53px -4px;
+}
+.edit_block_revise{
+background-position: -93px -5px;
+}
+.edit_block_spilt{
+	background-position: -134.8px -3.5px;
+}
+.edit_block_load{
+	background-position: -174px -3.5px;
+	margin-right: 5px;
+}
+
+.edit_li:active{
+	border-bottom: #abb2bf groove 1px;
+}
+.edit_li:hover{
+	border-bottom: #abb2bf groove 1px;
+}
+
+.edit:hover::before{
+	content: counter("");
+/*when cursor on edit, config ::before 
+you can insert text, or use keyframes on ::before 
+or config ::before bg, fg...*/
+}
+
 .edit{
 	position: absolute;
 	top: 3.5vmax;
-	left: 279px;
+	left: 319px;
 	width: 100vmax;
 	height: 93.5vmax;
 	overflow: scroll;
-	resize: both;
+	resize: horizontal;
 }
 .bak{
 	background-color: rgba(40,44,52,0.3);
 	caret-color: #61afef;
-	top:120px;
-	left: 5%;
-	width: 1800px;
-	height: 3100px;
+	position: relative;
+	left: 2%;
+	width: 90%;
+	height: 95%;
+	font-size: x-small;
 }
 
+.bak::-webkit-scrollbar{
+	background-color: rgba(40,44,52,0.5);
+}
+
+.bak::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(40,44,52,1);
+}
 

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <base href="../" />
 	<meta name="viewport" content="
             initial-scale=0.5,
             maximum-scale=5,
@@ -16,6 +17,7 @@
 	<link rel="stylesheet" href=" CSS/edit.css" />
 	<link rel="stylesheet" href=" CSS/down_bar.css" />
 	<link rel="stylesheet" href=" CSS/Termail.css" />
+   
 </head>
 
 <body>
@@ -49,8 +51,8 @@
 	<!--文件 编辑 选择 查看 转到 运行 终端 帮助-->
 
 	<ul class="grey sidebar height">
-		<button class="sidebar_button button1 buttons" title="资源管理器"></button>
-		<a href="HTML/search.html"><button class="sidebar_button button2 buttons" title="搜索"></button></a>
+		<a href="HTML/file.html"><button class="sidebar_button button1 buttons" title="资源管理器"></button></a>
+		<button class="sidebar_button button2 buttons" title="搜索"></button>
 		<a href="error.html"><button class="sidebar_button button3 buttons" title="源代码管理"></button></a>
 		<a href="error.html"><button class="sidebar_button button4 buttons" title="运行和调试"></button></a>
 		<a href="error.html"><button class="sidebar_button button5 buttons" title="扩展"></button></a>
@@ -60,57 +62,25 @@
 	<!--资源管理器 搜索 源代码管理 运行和调试 帐户 设置 同步-->
 
 	<div class="height list grey light_grey ffg left">
-		<br />资源管理器<br /><br />
-		<select class="zheng light_grey grey ffg ne selcet2" 
-		style="width: 40px; height: 40px" title="more...">
-			<option>...</option>
-			<option>打开的编辑器</option>
-			<option>Dir</option>
-			<option>大纲</option>
-			<option>Time_Sline</option>
-		</select>
+		<br />搜索
+        <li style="display: inline;"">@</li>
+        <li style="display: inline;"">$</li>
+        <li style="display: inline;"">#</li>
+        <li style="display: inline;"">&</li>
+        <br /><br />
 
-		<div style="background-color: #23282e;
-		height: 27.5px;padding-top: 2.5px;">
-			打开的编辑器
-			<div class="sonlist">
-				<li class="sonli xfile"></li>
-				<li class="sonli box"></li>
-				<li class="sonli shadow-box"></li>
-				<li class="sonli xdel"></li>
-			</div>
+		<div class="end_black center_block" >
+			<input type="text" class="end_black input ffg" />
+            <li style="display: inline; height: inherit;float: right;">搜索</li>
 		</div>
-		<ul>
-			<li class="icoli_css">index.css</li>
-			<li class="icoli_html">index.html</li>
-			<li class="icoli_pic">furry.jpg</li>
-			<br />
-		</ul>
-
-		<div style="background-color: #23282e;
-		height: 27.5px;padding-top: 2.5px;">
-			My_Furry
-			<div class="sonlist">
-				<li class="sonli file"></li>
-				<li class="sonli dir"></li>
-				<li class="sonli flash"></li>
-				<li class="sonli del"></li>
-			</div>
+		<li style="display: inline;">﹀</li>
+		<div class="end_black center_block" >
+			<input type="text" value="" class="end_black input ffg" />
+            <li style="display: inline; height: inherit;float: right;">替换</li>
 		</div>
-		<ul>
-			<li class="icoli_html">index.html</li>
-			<li class="icoli_css">index.css</li>
-			<li class="icoli_pic">furry.jpg</li>
-			<br />
-		</ul>
+ 
 
-		<ul class="sw">
-			<li style="background-color: #23282e">时间线</li>
-		</ul>
-		<ul>
-			<li style="background-color: #23282e">大纲</li>
-			&nbsp; 没有任何元素
-		</ul>
+		
 	</div>
 	<!-- 资源管理器 打开的编辑器 My_Furry 大纲 时间线-->
 

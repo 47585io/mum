@@ -8,3 +8,23 @@
     font-size: medium;
 }
 
+.center_block{
+    width:80%;
+    left: 10%;
+    height:35px;
+    position: relative;
+}
+
+input{
+    position: relative;
+    background-color: inherit;
+    width: 60%;
+    height: inherit;
+    caret-color: #61afef;
+    display: inline-block;
+    color:grey; 
+}
+
+input:hover{
+    color: #abb2bf;
+}

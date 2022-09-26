@@ -1,3 +1,24 @@
+@keyframes mykk{
+	 0%{
+		color: aquamarine;  
+	 }
+	 50%{
+		color: brown;
+        transform: rotate(360deg)
+		 translateX(-50px)
+		 skew(105deg)	
+		 scale(5)
+	 }
+
+	 100%{
+		transform: translate3d(56,56,56)
+        rotate3d(56deg,56deg,56deg)
+		scale3d(5,5,1)
+		perspective(100)
+	 }
+}
+
+
 .down_list{
 	position: absolute;
 	height: 3vmax; 
@@ -21,7 +42,7 @@
 	position: absolute;
 	left:100vmax;
 	top:97vmax;
-	width:280px;
+	width:319px;
 	height: 3vmax;
 	overflow: hidden;	
 }
@@ -43,18 +64,30 @@ audio:active{
 
 audio:hover{
    width: 250px;
-  
    margin-right: 10px;
 }
 
-a{
-	position: relative;
-
+.a{
 	height: inherit;
+	position: relative;
+	
 	margin-left: 20px;
 	margin-right: 20px;
+	/*background:repeating-conic-gradient(from 0deg at 0 0, red 30% 40%, orange)
+*/
 }
 
-a:hover{
-	color: aqua;
+.a:active{
+	 color:aqua;
+	 animation-duration: 3s;
+	 animation-name: mykk;
+	animation-timing-function: calc(0,0,0,0);	
 }
+
+.a:hover{
+	 color:aqua;	
+	animation-name: mykk;
+	animation-duration: 3s;	
+	animation-timing-function: calc(0,0,0,0);
+}
+
