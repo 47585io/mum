@@ -3,7 +3,7 @@
 		color: aquamarine;  
 	 }
 	 50%{
-		color: brown;
+		color:bisque;
         transform: rotate(180deg)
 		 /*translateX(-50px)
 		 skew(105deg)	
@@ -11,6 +11,7 @@
 	 }
 
 	 100%{
+		color:coral;
 		transform: rotate(360deg);
 		/*transform: translate3d(56,56,56)
         rotate3d(56deg,56deg,56deg)
