@@ -81,7 +81,7 @@ a:active{
 }
 
 a:hover{
-	background-color: burlywood;
+	
 	height: 12px;
 	 color:aqua;	
 	animation-name: mykk;

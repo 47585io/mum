@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="
+            initial-scale=0.5,
+            maximum-scale=5,
+            minimum-scale=0.5" charset="UTF-8" />
+	<link rel="stylesheet" href=" CSS/main.css" type="text/css" />
+	<link rel="stylesheet" href=" CSS/menu.css" />
+	<link rel="stylesheet" href=" CSS/pos.css" />
+	<link rel="stylesheet" href=" CSS/color.css" />
+	<link rel="stylesheet" href=" CSS/sidebar.css" />
+	<link rel="stylesheet" href=" CSS/list.css" />
+	<link rel="stylesheet" href=" CSS/font.css" />
+	<link rel="stylesheet" href=" CSS/edit.css" />
+	<link rel="stylesheet" href=" CSS/down_bar.css" />
+	<link rel="stylesheet" href=" CSS/Termail.css" />
+</head>
+
+<body>
+	<div class="menu">
+		<select class="selcet_ani select">
+			<option>文件</option>
+		</select>
+		<select class="selcet_ani select">
+			<option>编辑</option>
+		</select>
+		<select class="selcet_ani select">
+			<option>选择</option>
+		</select>
+		<select class="selcet_ani select">
+			<option>查看</option>
+		</select>
+		<select class="selcet_ani select">
+			<option>转到</option>
+		</select>
+		<select class="selcet_ani select">
+			<option>运行</option>
+		</select>
+		<select class="selcet_ani select">
+			<option>终端</option>
+		</select>
+		<select class="selcet_ani select">
+			<option>帮助</option>
+		</select>
+	</div>
+	<div class="cl_block"></div>
+	<!--文件 编辑 选择 查看 转到 运行 终端 帮助-->
+
+	<ul class="grey sidebar height">
+		<button class="sidebar_button button1" title="资源管理器"></button>
+		<button class="sidebar_button button2" title="搜索"></button>
+		<button class="sidebar_button button3" title="源代码管理"></button>
+		<button class="sidebar_button button4" title="运行和调试"></button>
+		<button class="sidebar_button button5" title="扩展"></button>
+		<button class="sidebar_button button6" title="帐户 " ></button>
+		<button class="sidebar_button button7" title="设置"></button>
+	</ul>
+	<!--资源管理器 搜索 源代码管理 运行和调试 帐户 设置 同步-->
+
+	<div class="height list grey light_grey ffg left">
+		<br />资源管理器<br /><br />
+		<select class="zheng light_grey grey ffg ne selcet2" 
+		style="width: 40px; height: 40px" title="more...">
+			<option>...</option>
+			<option>打开的编辑器</option>
+			<option>Dir</option>
+			<option>大纲</option>
+			<option>Time_Sline</option>
+		</select>
+
+		<div style="background-color: #23282e;
+		height: 27.5px;padding-top: 2.5px;">
+			打开的编辑器
+			<div class="sonlist">
+				<li class="sonli xfile"></li>
+				<li class="sonli box"></li>
+				<li class="sonli shadow-box"></li>
+				<li class="sonli xdel"></li>
+			</div>
+		</div>
+		<ul>
+			<li class="icoli_css">index.css</li>
+			<li class="icoli_html">index.html</li>
+			<li class="icoli_pic">furry.jpg</li>
+			<br />
+		</ul>
+
+		<div style="background-color: #23282e;
+		height: 27.5px;padding-top: 2.5px;">
+			My_Furry
+			<div class="sonlist">
+				<li class="sonli file"></li>
+				<li class="sonli dir"></li>
+				<li class="sonli flash"></li>
+				<li class="sonli del"></li>
+			</div>
+		</div>
+		<ul>
+			<li class="icoli_html">index.html</li>
+			<li class="icoli_css">index.css</li>
+			<li class="icoli_pic">furry.jpg</li>
+			<br />
+		</ul>
+
+		<ul class="sw">
+			<li style="background-color: #23282e">时间线</li>
+		</ul>
+		<ul>
+			<li style="background-color: #23282e">大纲</li>
+			&nbsp; 没有任何元素
+		</ul>
+	</div>
+	<!-- 资源管理器 打开的编辑器 My_Furry 大纲 时间线-->
+
+	<div class="edit light_grey">
+		<div class="edit_list">
+			<ul class="edit_list" style="width:80%; position: absolute;">
+				<li class="icoli_pic edit_li">furry.jpg</li>
+				<li class="icoli_css edit_li">index.css</li>
+				<li class="icoli_html edit_li">index.html</li>
+				<li style="font-size: small ;padding: 3.8px;">
+					My_Furry 〉index.html 〉 html 〉 body 〉 div 〉 ul 〉 li 〉 ul 〉 li 〉 li.style.background-color
+				</li>
+			</ul>
+			<ul class="edit_block" align="right">
+				<li class="sonli edit_block_li edit_block_run"></li>
+				<li class="sonli edit_block_li edit_block_time"></li>
+				<li class="sonli edit_block_li edit_block_revise"></li>
+				<a href="error.html"><li class="sonli edit_block_li edit_block_spilt"></li></a>
+				<li class="sonli edit_block_li edit_block_load"></li>
+			</ul>
+		</div>
+		<!--<img src=" pic/summer.jpg" />-->
+
+		<textarea class="ffg bak" style="border-right: white 1px groove; width:45%">you can write with vscode</textarea>
+        <textarea class="ffg bak" style="border-right: white 1px groove; width:45%"">you can write with vscode</textarea>
+		<!--打开的编辑器 summer.jpg-->
+
+		<div class="termail">
+			<br />
+			&nbsp;
+			<button class="termail_but">问题</button>
+			&nbsp;
+			<button class="termail_but">输出</button>
+			&nbsp;
+			<button class="termail_but">调试控制台</button>
+			&nbsp;
+			<button class="termail_but">终端</button>
+
+			<div style="
+						background-color: #23282e;
+						height: 27.5px;
+						padding-top: 2.5px;
+						position: absolute;
+						right: 350px;
+						top: 10px;
+					">
+				<div class="sonlist">
+					<li class="sonli bash_li bash"></li>
+					<li class="sonli bash_li add" style="width: 20px;">
+					<li class="sonli bash_li bash_down" style="position: relative;left:-2px;"></li>
+					</li>
+					<li class="sonli bash_li spilt"></li>
+					<li class="sonli bash_li bash_del"></li>
+					<li class="sonli bash_li up"></li>
+					<li class="sonli bash_li close"></li>
+				</div>
+			</div>
+
+			<br /><br />
+			<div align="left" style="left: 80%;position: absolute;width: 20%;
+			border-left: aliceblue 1px groove;">
+				<li class="end">MidSummer-with-Dog.Config</li><br />
+				<li class="end">盛夏与狗.Config</li>
+			</div>
+			<pre>
+				The world you live in that doesn't exist
+				It has melted in my heart...
+
+				------My_forever-love-furry
+
+
+				The last time I miss: 2022 08.25 00:00...
+			</pre>
+			<br /><br /><br />
+		</div>
+		<!--终端 调试控制台 输出 问题-->
+	</div>
+
+	<div class="light_grey grey down_list">
+		<a>↻</a>
+	</div>
+	<div class="end_block light_grey grey" align="left">
+		<audio src="play/1.wav" loop="loop" autoplay="autoplay" controls="true"></audio>
+		<a style="top:-20px;">打上花火</a>
+	</div>
+	<!--dwin_list flex-->
+
+</body>
+</html>
