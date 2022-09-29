@@ -72,7 +72,7 @@ audio:hover{
 
 
 a:active{
-	width: 15px;
+	height:  12px;
 	 color:aqua;
 	 animation-duration: 3s;
 	 animation-name: mykk;
