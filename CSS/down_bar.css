@@ -68,11 +68,11 @@ audio:hover{
 
 
 
-a{background-color: blueviolet;}
+
 
 
 a:active{
-	height:  12px;
+	
 	 color:aqua;
 	 animation-duration: 3s;
 	 animation-name: mykk;
@@ -82,7 +82,7 @@ a:active{
 
 a:hover{
 	
-	height: 12px;
+	
 	 color:aqua;	
 	animation-name: mykk;
 	animation-duration: 3s;	
