@@ -39,12 +39,6 @@ li:hover{
     filter:  brightness(1.3);
 }
 
-.lili{
-    display: inline;
-    float:left
-    border-radius: 10px;
-}
-
 .icoli_css{
     list-style-image:url(../pic/css.jpg);
     background-image: url(../pic/css.jpg);

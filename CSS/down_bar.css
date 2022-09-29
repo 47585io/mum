@@ -4,17 +4,18 @@
 	 }
 	 50%{
 		color: brown;
-        transform: rotate(360deg)
-		 translateX(-50px)
+        transform: rotate(180deg)
+		 /*translateX(-50px)
 		 skew(105deg)	
-		 scale(5)
+		 scale(5)*/
 	 }
 
 	 100%{
-		transform: translate3d(56,56,56)
+		transform: rotate(360deg);
+		/*transform: translate3d(56,56,56)
         rotate3d(56deg,56deg,56deg)
-		scale3d(5,5,1)
-		perspective(100)
+		/*scale3d(5,5,1)
+		perspective(100)*/
 	 }
 }
 
@@ -30,11 +31,8 @@
 	overflow: hidden;
 	display: flex;
 	flex-direction: row-reverse;
-	flex-wrap: nowrap;
 	justify-content: flex-start;
-	align-items:stretch;
-	flex-grow:4;
-    
+	align-items: center;
 }
 /*The column next to the menu must be based on the height of the menu: 3.5vmax, the others can be defined by yourself*/
 
@@ -67,27 +65,28 @@ audio:hover{
    margin-right: 10px;
 }
 
-.a{
-	height: inherit;
-	position: relative;
-	
-	margin-left: 20px;
-	margin-right: 20px;
-	/*background:repeating-conic-gradient(from 0deg at 0 0, red 30% 40%, orange)
-*/
-}
 
-.a:active{
+
+
+
+
+
+a:active{
+	width: 15px;
 	 color:aqua;
 	 animation-duration: 3s;
 	 animation-name: mykk;
-	animation-timing-function: calc(0,0,0,0);	
+	animation-timing-function:linear;
+	animation-iteration-count: 10;	
 }
 
-.a:hover{
+a:hover{
+	background-color: burlywood;
+	height: 12px;
 	 color:aqua;	
 	animation-name: mykk;
 	animation-duration: 3s;	
-	animation-timing-function: calc(0,0,0,0);
+	animation-timing-function: linear;
+	animation-iteration-count: 10;
 }
 

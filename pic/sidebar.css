@@ -1,4 +1,3 @@
-
 button {
 	width:70px;
 	height: 69px;
@@ -15,7 +14,7 @@ button {
 	width: 70px;
 	resize:vertical;
 	overflow: hidden;
-	opacity: 1;
+	
 	/*Always know, because the menu height is the largest in the screen width high school, so I always have the largest screen width in the high school,*/
 }
 
@@ -55,26 +54,20 @@ button {
 }
 /*The last two tabs, placed in the lower left corner of the window*/
 
-
-.sidebar:hover .sidebar_button
+.sidebar:hover .buttons
 {
     background-image: url(../pic/sidebar.jpg);
-	opacity: 1;
-	transition:0s;
-}
-
-.sidebar_button:first-child{
-	opacity: 1;
-	background-image: url(../pic/active_sidebar.jpg);
-}
-
-.sidebar_button:hover{
-	/*filter: brightness(1.5);*/
-	background-image: url(../pic/active_sidebar.jpg)!important;
-	opacity: 1;
 	transition-delay:0s;
 }
 
+.buttons:first-child {
+   background-image: url(../pic/active_sidebar.jpg);
+}
+
+.buttons:hover {
+	/*filter: brightness(1.5);*/
+    transition-delay:0s;
+	background-image: url(../pic/active_sidebar.jpg) !important;
+}
 
 /*When all have the buttons class and are active, show another*/
-
