@@ -64,6 +64,7 @@ button {
 }
 
 .sidebar_button:first-child{
+	transition-delay:9999s;
 	opacity: 1;
 	background-image: url(../pic/active_sidebar.jpg);
 }

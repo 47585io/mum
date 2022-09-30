@@ -67,7 +67,10 @@ audio:hover{
 }
 
 
-
+a{
+	text-align: center;
+	overflow: hidden;
+}
 
 
 
